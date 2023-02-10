@@ -1,3 +1,3 @@
 # WPApp
 
-i hate github
+i don't hate github
