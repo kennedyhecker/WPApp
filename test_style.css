@@ -13,4 +13,16 @@ h3 {
   text-align: center;
   font-family: courier;
 }
+.button {
+  border: none;
+  color: white;
+  padding: 100px 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
 
