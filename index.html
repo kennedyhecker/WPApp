@@ -5,6 +5,12 @@
     <h1>United States Military Academy at West Point</h1>
     <h2>Schedule</h2>
     <h3>Uniform of the Day</h3>
-    <button class="button">Points of Contact</button>
+    <p id="demo">Points of Contact</p>
+    <button class="button" onclick="poc()">Points of Contact</button>
+    <script>
+function poc() { 
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+}
+</script>
   </body>
 </html>
