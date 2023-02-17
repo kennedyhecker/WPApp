@@ -13,3 +13,12 @@ h3 {
   text-align: center;
   font-family: courier;
 }
+poc_header {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  background-color: rgb(255,215,0);
+  font-size: 200%;
+  text-align: center;
+  font-family: courier;
+}
