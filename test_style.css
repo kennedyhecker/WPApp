@@ -14,11 +14,14 @@ h3 {
   font-family: courier;
 }
 .button {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  background-color: rgb(255,215,0);
-  font-size: 200%;
+  border: none;
+  color: white;
+  padding: 16px 32px;
   text-align: center;
-  font-family: courier;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
