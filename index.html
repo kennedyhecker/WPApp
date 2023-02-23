@@ -3,12 +3,9 @@
 <link rel="stylesheet" href="test_style.css">
   <body>
     <h1>United States Military Academy at West Point</h1>
-    <button class="button button1" onclick="schedule()">Schedule</button>
-    <h2 id="schedule_button">Schedule</h2>
-    <button class="button button2" onclick="uod()">Uniform of the Day</button>
-    <h3 id="uod_button">Uniform of the Day</h3>
-    <button class="button button3" onclick="poc()">Points of Contact</button>
-    <h4 id="poc_button">Points of Contact</h4>
+    <button id="schedule_button" class="button button1" onclick="schedule()">Schedule</button>
+    <button id="uod_button" class="button button2" onclick="uod()">Uniform of the Day</button>
+    <button id="poc_button" class="button button3" onclick="poc()">Points of Contact</button>
     <script>
     function schedule() {
     document.getElementById("schedule_button").innerHTML = "Schedule for the day: "
