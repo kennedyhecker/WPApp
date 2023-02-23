@@ -4,18 +4,18 @@
   <body>
     <h1>United States Military Academy at West Point</h1>
     <button class="button button1" onclick="schedule()">Schedule</button>
-    <h2 id="schedule">Schedule</h2>
+    <h2 id="schedule_button">Schedule</h2>
     <button class="button button2" onclick="uod()">Uniform of the Day</button>
-    <h3 id="uod">Uniform of the Day</h3>
+    <h3 id="uod_button">Uniform of the Day</h3>
     <button class="button button3" onclick="poc()">Points of Contact</button>
     <h4 id="poc_button">Points of Contact</h4>
     <script>
     function schedule() {
-    document.getElementByID("schedule").innerHTML = "Schedule for the day: "
+    document.getElementById("schedule_button").innerHTML = "Schedule for the day: "
     ;
 }
     function uod() {
-    document.getElementByID("uod").innerHTML = "Army Combat Uniform"
+    document.getElementById("uod_button").innerHTML = "Army Combat Uniform"
     ;
 }
     function poc() { 
