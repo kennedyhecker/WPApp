@@ -3,7 +3,8 @@
 <link rel="stylesheet" href="test_style.css">
   <body>
     <h1>United States Military Academy at West Point</h1>
-    <button id="schedule_button" class="button button1" onclick="schedule()">Schedule</button>
+    <button id="schedule_button" class="button button1" onclick="show_schedule()">Schedule</button>
+    <img id="schedule_pic" src="ay_1.png"/>
     <button id="uod_button" class="button button2" onclick="uod()">Uniform of the Day</button>
     <button id="poc_button" class="button button3" onclick="poc()">Points of Contact</button>
     <script>
@@ -18,6 +19,10 @@
     function poc() { 
     document.getElementById("poc_button").innerHTML = "SHARP Hotline: 845-659-7467<br>Behavioral Health Support: 845-591-7215<br>Medical Care: 845-938-4004<br>Equal Opportunity: 845-476-1391<br>Legal Counsel-Special Victim's Council: 845-372-3338<br>West Point Legal Assistance: 845-938-4541<br>Chaplain: 845-401-8171<br>"
     ;
+}
+    function show_schedule() {
+    document.getElementById("schedule_pic").style.display = "block";
+    document.getElementById("schedule_button").style.display = "none";
 }
     </script>
   </body>
