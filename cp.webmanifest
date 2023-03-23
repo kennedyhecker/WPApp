@@ -1,0 +1,9 @@
+{
+    "name": "Cadet Portal Progressive Web App",
+    "short_name": "Cadet Portal",
+    "description": "Progressive Web App that provides the cadet schedule, UOD, and POCs.",
+    "start_url": "/pwa-examples/js13kpwa/index.html",
+    "display": "fullscreen",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
+}
