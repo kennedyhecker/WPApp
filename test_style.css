@@ -62,5 +62,12 @@ h4 {
   position: absolute;
   top: 1px;
   left: 1px;
+    background-color: rgb(255,215,0);
+  color: black; 
+}
+
+.add-button:hover {
+  background-color: rgb(195,182,9);
+  color: white;
 }
 
