@@ -12,7 +12,7 @@ final_url = base_url + "appid=" + API_key + "&id=" + city_id
 
 weather_data = requests.get(final_url).json()
 
-temp = weather_data['main']['temp]
+temp = weather_data['main']['temp']
 
 uodMT = "As For Class "
 uodWTF = "Army Combat Uniform "
