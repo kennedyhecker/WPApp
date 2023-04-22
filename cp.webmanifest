@@ -5,10 +5,10 @@
     "start_url": "/index.html",
     "icons": 
     [
-        {"src": "crest_16.png", "sizes": "16x16", "type":"image/png"},
-        {"src": "crest_64.png", "sizes": "128x128", "type":"image/png"},
-        {"src": "crest_128.png", "sizes": "152x152", "type":"image/png"},
-        {"src": "crest_144.png", "sizes": "144x144", "type":"image/png"}
+        {"src": "crest16.png", "sizes": "16x16", "type":"image/png"},
+        {"src": "crest64.png", "sizes": "64x64", "type":"image/png"},
+        {"src": "crest128.png", "sizes": "128x128", "type":"image/png"},
+        {"src": "crest144.png", "sizes": "144x144", "type":"image/png"}
     ],
     "display": "standalone"
 }
