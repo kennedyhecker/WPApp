@@ -9,17 +9,17 @@
             "type": "image/png"
         }
         {
-            "src": "icons/crest_64.png",
+            "src": "crest_64.png",
             "sizes": "64x64",
             "type": "image/png"
         },
         {
-            "src": "icons/crest_128.png",
+            "src": "crest_128.png",
             "sizes": "128x128",
             "type": "image/png"
         },
         {
-            "src": "icons/crest_144.png",
+            "src": "crest_144.png",
             "sizes": "144x144",
             "type": "image/png"
         }
