@@ -4,7 +4,7 @@
     "description": "Progressive Web App that provides the cadet schedule, UOD, and POCs.",
     "icons": [
         {
-            "src": "icons/crest_16.png",
+            "src": "crest_16.png",
             "sizes": "16x16",
             "type": "image/png"
         }
