@@ -6,9 +6,9 @@
     "icons": 
     [
         {"src": "crest16.jpg", "sizes": "16x16", "type":"image/jpg"},
-        {"src": "crest64.jpg", "sizes": "64x64", "type":"image/jpg"},
         {"src": "crest128.jpg", "sizes": "128x128", "type":"image/jpg"},
-        {"src": "crest144.jpg", "sizes": "144x144", "type":"image/jpg"}
+        {"src": "crest144.jpg", "sizes": "144x144", "type":"image/jpg"},
+        {"src": "crest152.jpg", "sizes": "152x152", "type":"image/jpg"}
     ],
     "display": "standalone"
 }
