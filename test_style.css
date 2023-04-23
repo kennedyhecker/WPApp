@@ -64,6 +64,7 @@ h4 {
   left: 1px;
     background-color: rgb(255,215,0);
   color: black; 
+  display: hide;
 }
 
 .add-button:hover {
