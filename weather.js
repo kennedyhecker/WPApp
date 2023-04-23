@@ -1,3 +1,5 @@
+function uod_temp()
+{
 const API_key = "c3181a680223a71820271afa09373431";
 const base_url = "http://api.openweathermap.org/data/2.5/weather?";
 const city_id = "5143966";
@@ -22,4 +24,6 @@ fetch(final_url)
     }
     const uod = uodMT + "\n" + uodWTF;
   });
+  return uod
+}
 
