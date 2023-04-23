@@ -1,7 +1,7 @@
 {
     "name": "Cadet Portal",
     "short_name": "CDT Portal",
-    "description": "Progressive Web App that provides the cadet schedule, UOD, and POCs",
+    "description": "Progressive Web App that provides the cadet schedule, UOD, and POCs.",
     "start_url": "/index.html",
     "icons": 
     [
