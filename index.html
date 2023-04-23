@@ -11,6 +11,7 @@
   <script src="install.js"></script>
   <link rel="manifest" href="cp.webmanifest">
   <link rel="weather" href="weather.python">
+  <link rel="sw" href="sw.js">
   </head>
   <body>
     <h1>United States Military Academy at West Point</h1>
@@ -23,7 +24,7 @@
     <script>
     function uod() {
     
-    document.getElementById("uod_button").innerHTML = uod;
+    document.getElementById("uod_button").innerHTML = uod_temp();
     ;
 }
     function poc() { 
