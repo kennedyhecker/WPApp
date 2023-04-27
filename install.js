@@ -1,6 +1,6 @@
-<!--let deferredPrompt;
+let deferredPrompt;
 const addBtn = document.querySelector(".add-button");
-addBtn.style.display = "none";
+addBtn.style.display = "block";
 
 
 window.addEventListener("beforeinstallprompt", (e) => {
@@ -26,4 +26,4 @@ window.addEventListener("beforeinstallprompt", (e) => {
       deferredPrompt = null;
     });
   });
-});-->
+});
