@@ -21,7 +21,7 @@
     <button id="schedule_button" class="button button1" onclick="show_schedule()">Schedule</button>
     <img id="schedule_pic1" src="ay_1.PNG" width=1144 height=570 display="none"/>
     <img id="schedule_pic2" src="ay_2.PNG" width=1143 height=230 display="none"/>
-    <button id="uod_button" class="button button2" onclick="uod()">Uniform of the Day</button>
+    <button id="uod_button" class="button button2" onclick="get_uod()">Uniform of the Day</button>
     <button id="poc_button" class="button button3" onclick="poc()">Points of Contact</button>
     <!--<button class="add-button">Add to home screen</button>-->
     <script>
@@ -29,7 +29,7 @@
         {
             navigator.serviceWorker.register('./sw.js');
         }
-    function uod() {
+    function get_uod() {
       const API_key = "c3181a680223a71820271afa09373431";
       const base_url = "http://api.openweathermap.org/data/2.5/weather?";
       const city_id = "5143966";
