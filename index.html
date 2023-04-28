@@ -31,9 +31,9 @@
         }
     function get_uod() {
       const API_key = "c3181a680223a71820271afa09373431";
-      const base_url = "http://api.openweathermap.org/data/2.5/weather?";
+      const base_url = "https://api.openweathermap.org/data/2.5/weather?";
       const city_id = "5143966";
-      const final_url = base_url + "appid=" + API_key + "&id=" + city_id;
+      const final_url = base_url + "appid=" + API_key + "&id=" + city_id + "&units=imperial";
       fetch(final_url)
         .then(response => response.json())
         .then(data => {
@@ -52,7 +52,7 @@
           } else if (temp < 50) {
             uodMT += "Black Jacket";
           }
-          const uod = uodMT + "\n" + uodWTF;
+          const uod = uodMT + "</br>" + uodWTF;
         });
     document.getElementById("uod_button").innerHTML = uod;
     
