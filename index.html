@@ -38,7 +38,7 @@
       fetch(final_url)
         .then(response => response.json())
         .then(data => {
-          const temp = data.main.temp - 10;
+          const temp = data.main.temp;
           let uodMT = "Mon-Tues: As for Class";
           let uodWTF = "Wed-Sun: Army Combat Uniform";
           if (temp < 15) {
