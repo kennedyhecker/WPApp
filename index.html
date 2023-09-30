@@ -39,8 +39,8 @@
         .then(response => response.json())
         .then(data => {
           const temp = data.main.temp;
-          let uodMT = "Mon-Tues: As for Class";
-          let uodWTF = "Wed-Sun: Army Combat Uniform";
+          let uodMT = "Mon-Wed: As for Class";
+          let uodWTF = "Thurs-Sun: Army Combat Uniform";
           if (temp < 15) {
             uodMT += " with Parka with scarf, with knit hat, wearing black gloves";
             uodWTF += " with Gortex and Fleece with black fleece cap, wearing black gloves";
